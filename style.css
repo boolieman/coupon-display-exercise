@@ -15,15 +15,16 @@
 	height: 240px;
 }
 .coupon {
-	border: 3px solid #6C6C6C;
+	border: 3px solid #80bfff;
 	border-radius: 10px;
 	height: 100%;
 	width: 100%;
 	position: relative;
+	box-shadow:2px 2px 2px #d9d9d9;
 }
 
 .coupon .header {
-	background: #6C6C6C;
+	background: #80bfff;
 	height: 15%;
 	font-size: 0.75em;
 	line-height: 2.5em;
@@ -75,8 +76,8 @@ img{
 	bottom: 0;
 	height: 25%;
 	width: 100%;
-	background: #a8b3bd;
-	border-top: solid 2px #7d8d9c;
+	background: #e5e5ff;
+	border-top: solid 2px #ccccff;
 	border-radius: 0 0 5px 5px;
 }
 .action-bar{
@@ -95,7 +96,7 @@ button{
 	margin: 0;
 	padding: 0;
 	border: 0;
-	background: none #7d8d9c;
+	background: none #008b8b;
 	height: 4em;
 	width: 14em;
 	border-radius: 5px;
@@ -157,4 +158,9 @@ button{
 .tiny button {
 	height: 1.8em;
 	width: 7em;
+}
+
+.tiny .header {
+  line-height: 1.2em;
+  font-size: 1.2em;
 }

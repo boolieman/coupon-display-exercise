@@ -1,5 +1,5 @@
 /* and finally pc only style */
-@media screen and (min-device-width: 1025px) {
+@media screen and (min-width: 1025px) {
     .responsive {
       margin-top: 40px;
       font-size: x-large;
@@ -9,7 +9,7 @@
 }
 
 /*smaller screen pc's + tablets */
-@media screen and (min-device-width: 668px) and (max-device-width: 1024px) {
+@media screen and (min-width: 668px) and (max-width: 1024px) {
     .responsive {
       margin-top: 40px;
       font-size: large;
@@ -19,7 +19,7 @@
 }
 
 /*larger cellphones */
-@media screen and (min-device-width: 481px) and (max-device-width: 667px) {
+@media screen and (min-width: 481px) and (max-width: 667px) {
     .responsive {
       margin-top: 40px;
       font-size: small;
@@ -37,7 +37,7 @@
 }
 
 /* small cellphones */
-@media screen and (max-device-width: 480px) {
+@media screen and (max-width: 480px) {
   	.responsive {
   		margin-top: 40px;
   		font-size: x-small;
@@ -58,5 +58,10 @@
   		height: 1.8em;
   		width: 7em;
   	}
+
+    .responsive .header {
+      line-height: 1.2em;
+      font-size: 1.2em;
+    }
 
 }
