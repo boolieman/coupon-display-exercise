@@ -1,0 +1,62 @@
+/* and finally pc only style */
+@media screen and (min-device-width: 1025px) {
+    .responsive {
+      margin-top: 40px;
+      font-size: x-large;
+      width: 600px;
+      height: 400px;
+    }
+}
+
+/*smaller screen pc's + tablets */
+@media screen and (min-device-width: 668px) and (max-device-width: 1024px) {
+    .responsive {
+      margin-top: 40px;
+      font-size: large;
+      width: 500px;
+      height: 285px;
+    }
+}
+
+/*larger cellphones */
+@media screen and (min-device-width: 481px) and (max-device-width: 667px) {
+    .responsive {
+      margin-top: 40px;
+      font-size: small;
+      width: 350px;
+      height: 200px;
+    }
+    .responsive p {
+      font-size: 1em;
+      line-height: 1.2em;
+    }
+    .responsive .header{
+      font-size: 1.3em;
+      line-height: 1.3em;
+    }
+}
+
+/* small cellphones */
+@media screen and (max-device-width: 480px) {
+  	.responsive {
+  		margin-top: 40px;
+  		font-size: x-small;
+  		width:200px;
+  		height:115px;
+  	}
+
+  	.responsive p {
+  		font-size: 1.3em;
+  	}
+
+  	.responsive img {
+  		height: 5em;
+  		width: 5em;
+  	}
+
+  	.responsive button {
+  		height: 1.8em;
+  		width: 7em;
+  	}
+
+}

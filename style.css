@@ -2,6 +2,159 @@
   Just a style used for testing that this CSS file
   is being properly pulled in by the index.html file
 */
-.large-text {
-  font-size: 48px;
+* {
+	/*just get some standardization out of the way here */
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	font-size: 1em;
+}
+/* Define for the coupon base style */
+.couponContainer {
+	width: 420px;
+	height: 240px;
+}
+.coupon {
+	border: 3px solid #6C6C6C;
+	border-radius: 10px;
+	height: 100%;
+	width: 100%;
+	position: relative;
+}
+
+.coupon .header {
+	background: #6C6C6C;
+	height: 15%;
+	font-size: 0.75em;
+	line-height: 2.5em;
+	color: white;
+	font-weight: 800;
+	padding-left: 0.7em;
+}
+
+.coupon .body {
+	height: 50%;
+}
+
+.description {
+	float: right;
+	height: 120%;
+	padding: 2%;
+	padding-bottom: 0.7em;
+	line-height: 1em;
+	max-width: 70%;
+}
+
+.description p {
+	margin: 0;
+	font-size: 0.688em;
+}
+
+.image {
+	float: left;
+	height: 120%;
+	width: 30%;
+	position: relative;
+	display: table;
+	padding-left: 0.8em;
+}
+
+.image-wrap{
+	height: 100%;
+	display:table-cell;
+	vertical-align: middle;
+}
+
+img{
+	width: 6.25em;
+	height: 6.25em;
+	margin: auto;
+}
+.footer{
+	position: absolute;
+	bottom: 0;
+	height: 25%;
+	width: 100%;
+	background: #a8b3bd;
+	border-top: solid 2px #7d8d9c;
+	border-radius: 0 0 5px 5px;
+}
+.action-bar{
+	height: 100%;
+	float: right;
+	display: table;
+	position: relative;
+	padding-right: 3%;
+}
+.action-button{
+	height: 100%;
+	display: table-cell;
+	vertical-align: middle;
+}
+button{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	background: none #7d8d9c;
+	height: 4em;
+	width: 14em;
+	border-radius: 5px;
+	font-weight: 700;
+	font-size: 0.63em;
+	color: white;
+}
+
+
+/* lets define some containers to show adaptive ability */
+
+.large {
+	margin-top: 40px;
+	font-size: x-large;
+	width: 600px;
+	height: 400px;
+}
+
+.medium {
+	margin-top: 40px;
+	font-size: large;
+	width: 500px;
+	height: 285px;
+}
+
+/* at small we need to do small adjustments for readability to the stock em sizes */
+.small {
+	margin-top: 40px;
+	font-size: small;
+	width: 350px;
+	height: 200px;
+}
+.small p {
+	font-size: 1em;
+	line-height: 1.2em;
+}
+.small .header{
+	font-size: 1.3em;
+	line-height: 1.3em;
+}
+
+/*this might be too tiny to concider honestly but hey, why not its all in ems anyways! */
+.tiny {
+	margin-top: 40px;
+	font-size: x-small;
+	width:200px;
+	height:115px;
+}
+
+.tiny p {
+	font-size: 1.3em;
+}
+
+.tiny img {
+	height: 5em;
+	width: 5em;
+}
+
+.tiny button {
+	height: 1.8em;
+	width: 7em;
 }
